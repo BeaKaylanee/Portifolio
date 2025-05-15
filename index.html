@@ -10,6 +10,8 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		
 		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+	
+		<link rel="stylesheet" href="./assets/css/style.css" />
 
 		<title>Meu Perfil</title>
 	</head>
@@ -20,14 +22,13 @@
 		<header>
 
 			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
+			<div id="header_content"  class="flex">
 
 				<!-- Titulo do Cabeçalho -->
 				<div id="titulo">
 
 					<!-- Seu nome -->
 					<h1>Beatriz Kailane</h1>
-
 				</div>
 
 				<!-- Conteudo do Menu da Página (header) -->
@@ -58,44 +59,49 @@
 		<main>
 
 			<!-- Seção Sobre você -->
-			<section id="about">
+			<section id="about" class="flex_start">
 
 				<!-- Título da Seção -->
-				<h2>Sobre Beatriz Kailane</h2>
 
+				<h1 style="color: #7b94d1;">🎓 Estudante de TI | Desenvolvedora Full Stack em formação.</h1>
+				<h2>Sobre Beatriz Kailane</h2>
 				<!-- Conteúdo da Seção -->
-				<div id="conteudo">
+				<div id="conteudo" class="flex">
 
 					<!-- Imagem do criador do conteúdo -->
 					<img
 						src="./assets/img/beatriz.jpeg"
 						alt="Foto do criador desse conteudo"
+
+						class="img_profile"
 					/>
 
 					<!-- Texto sobre o criador do conteúdo -->
 					<article id="sobre_texto">
 
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Voluptatem odio possimus, dolorem earum atque
-							itaque quas soluta placeat iure omnis porro cum
-							debitis sequi libero! Deleniti vitae quis hic
-							cumque. Lorem ipsum, dolor sit amet consectetur
-							adipisicing elit. Eius inventore ullam, quia
-							deserunt enim cumque hic officia repudiandae ad ab
-							et sapiente qui vitae accusamus adipisci provident
-							sit assumenda laboriosam!
+							Olá! Sou estudante de Gestão da Tecnologia da Informação na FATEC Franco da Rocha,
+						    com conclusão prevista para julho de 2025, e participante do Bootcamp Desenvolvedora Full Stack – Java pela Generation Brasil.
+						    Atuei como estagiária em desenvolvimento Back-end em uma empresa de ERP, onde adquiri 
+							experiência prática com programação orientada a objetos, criação de APIs RESTful e 
+							manipulação de banco de dados. Essa vivência despertou ainda mais minha paixão por 
+							desenvolver soluções tecnológicas que geram impacto real no dia a dia.
+							Sigo me aprimorando por meio de cursos e projetos pessoais, com foco em Git, GitHub e
+							 boas práticas de desenvolvimento. Estou em busca da minha primeira oportunidade como 
+							 desenvolvedora júnior, com vontade de aprender, crescer e colaborar em projetos eficientes e inovadores.
+							Fora do mundo da tecnologia, gosto de cozinhar, ler e fazer trilhas — atividades que recarregam minha energia,
+							 estimulam minha curiosidade e me ajudam a manter o foco.
 						</p>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Voluptatem odio possimus, dolorem earum atque
-							itaque quas soluta placeat iure omnis porro cum
-							debitis sequi libero! Deleniti vitae quis hic
-							cumque. Lorem ipsum, dolor sit amet consectetur
-							adipisicing elit. Eius inventore ullam, quia
-							deserunt enim cumque hic officia repudiandae ad ab
-							et sapiente qui vitae accusamus adipisci provident
-							sit assumenda laboriosam!
+							Hi! I'm currently studying IT Management at FATEC Franco da Rocha,
+							with graduation expected in July 2025, and participating in the Full Stack 
+							Java Developer Bootcamp by Generation Brazil.
+							I had the opportunity to work as a Back-end development intern at an ERP company, 
+							where I gained hands-on experience with object-oriented programming, building RESTful APIs, 
+							and working with databases. That experience sparked my passion for developing real-world tech solutions that create impact.
+							I continue to improve my skills through courses and personal projects, 
+							focusing on Git, GitHub, and clean coding practices. I'm looking for my first opportunity as a junior developer, eager to learn, grow, and contribute to efficient, innovative projects.
+							Outside of tech, I enjoy cooking, reading, and going on nature hikes — activities that recharge my energy and keep me curious and focused.
 						</p>
 
 					</article>
@@ -105,13 +111,13 @@
 			</section>
 
 			<!-- Seção contendo um vídeo de sua preferência -->
-			<section id="video">
+			<section id="video" class="flex_start">
 
 				<!-- Título da Seção -->
 				<h2>Meu vídeo favorito:</h2>
 
 				<!-- Vídeo da Seção -->
-				<div id="youtube">
+				<div id="youtube" class="flex">
 
 					<iframe
 						width="560"
@@ -130,7 +136,7 @@
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer  class="flex">
 
 			<!-- Seção de Contato - Redes Sociais-->
 			<section id="redes_sociais">
