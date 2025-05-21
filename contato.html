@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	
 	<head>
 		<meta charset="UTF-8">
 		
@@ -11,35 +10,19 @@
 		
 		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
 
-		<link rel="stylesheet" href="assets/css/style.css" />
-        <script src="assets/js/script.js"></script>
+		<link rel="stylesheet" href="./assets/css/style.css" />
 
 		<title>Meu Perfil</title>
 	</head>
-
 	<body>
-
-		<!-- Cabeçalho da Página (header) -->
 		<header>
-
-			<!-- Div Conteudo do Cabeçalho -->
 			<div id="header_content" class="flex">
-
-				<!-- Titulo do Cabeçalho -->
 				<div id="titulo">
-
-					<!-- Seu nome -->
-					<h1>Generation Brasil</h1>
-
+					<h1>Beatriz Kailane</h1>
 				</div>
 
-				<!-- Conteudo do Menu da Página (header) -->
 				<div id="menu">
-
-					<!-- Menu da Página -->
 					<nav>
-
-						<!-- Marcadores não ordenados + links -->
 						<ul id="menu">
 							<li>
 								<a href="index.html">Home</a>
@@ -48,40 +31,29 @@
 								<a href="contato.html">Contato</a>
 							</li>
 						</ul>
-
 					</nav>
-
 				</div>
-
 			</div>
-
 		</header>
 
-		<!-- Seção Principal da Página (main) -->
 		<main>
-			
-			<section id="contact" class="flex">
-				
-			
+			<div id="contact" class="flex">
 				<form action="#" method="submit" id="formulario">
-
-					<label for="nome">Nome: </label>
+					<label for="name">Nome: </label>
 					<input
-						id="nome"
+						id="name"
 						type="text"
 						name="name"
 						placeholder="Digite seu nome"
-						required
 					/>
 					<span id="txtNome"></span>
 
 					<label for="email">Email: </label>
 					<input
 						id="email"
-						type="email"
+						type="text"
 						name="email"
 						placeholder="Digite seu email"
-						required
 					/>
 					<span id="txtEmail"></span>
 
@@ -91,7 +63,6 @@
 						type="text"
 						name="subject"
 						placeholder="Digite o título da mensagem"
-						required
 					/>
 					<span id="txtSubject"></span>
 
@@ -100,23 +71,19 @@
 						id="message"
 						name="message"
 						placeholder="Digite sua mensagem"
-						required
-					>
-					</textarea>
+					></textarea>
 
 					<button type="submit">Enviar</button>
-
 				</form>
 
-				<!-- Seção do Google Maps -->
-				<article id="mapa"  class="flex_start">
+                <article id="mapa"  class="flex_start">
 
-					<div id="endereco">
-						<p>R. Olavo Bilac, 281</p>
-						<p>São Paulo - SP</p>
-					</div>
+                    <div id="endereco">
+                        <p>R. Olavo Bilac, 281</p>
+                        <p>São Paulo - SP</p>
+                    </div>
 
-					<iframe
+                    <iframe
                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.0504567563585!2d-46.753698724491585!3d-23.2776162512295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cee0d394e80b8f%3A0xd7c19a79db3c1912!2sAFONSO%20MORENO!5e0!3m2!1spt-BR!2sbr!4v1747097116182!5m2!1spt-BR!2sbr"
                      width="600" 
                      height="450" 
@@ -125,35 +92,29 @@
                      loading="lazy" 
                      referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
-
-				</article>
-
-			</section>
-
+                </article>
+				</section>
+			</div>
 		</main>
 
-		<!-- Rodapé da Página (footer) -->
 		<footer class="flex">
-
-			<!-- Seção de Contato - Redes Sociais-->
 			<section id="redes_sociais">
-
 				<a href="">
-					<img src="assets/img/linkedin.svg" alt="LinkedIn" />
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
 				</a>
 				<a href="">
-					<img src="assets/img/github.svg" alt="Github" />
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
 				</a>
 				<a href="">
-					<img src="assets/img/instagram.svg" alt="Instagram" />
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
 				</a>
-
 			</section>
 
 			<h3>Feito com 🧡 por Generation Brasil - 2024</h3>
-
+			
 		</footer>
 
-	</body>
+		<script src="./assets/js/script.js"></script>
 
+	</body>
 </html>
